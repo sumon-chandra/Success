@@ -39,9 +39,10 @@
     margin-top: 24px;
     margin-right: 20px;
 }
-.signup i{
+.signup a i{
     font-size: 30px;
     cursor: pointer;
+    color:#08D404;
 }
 nav ul{
     display: flex;
