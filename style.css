@@ -26,7 +26,23 @@
     z-index: 2;
 }
 
-
+.signup {
+    display: flex;
+    width:200px;
+    padding: 3px 0;
+    color:#08D404;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #fff;
+    font-size: 20px;
+    border-radius: 27px;
+    margin-top: 24px;
+    margin-right: 20px;
+}
+.signup i{
+    font-size: 30px;
+    cursor: pointer;
+}
 nav ul{
     display: flex;
 }
@@ -97,6 +113,7 @@ button{
     border:none;
     color:#fff;
     box-shadow: 2px 3px 10px gray;
+    cursor: pointer;
 }
 
 /* ------------------------------------------Blog------------------------------- */
@@ -229,12 +246,17 @@ hr{
 
 #container{
     width:100%;
-    background-color: #888680;
+}
+#container > h1{
+    font-size: 60px;
+    color:#08D404;
+    text-align: center;
+    margin-top: 30px;
 }
 .albums{
     margin: 80px 40px 0 30px;
     width: 95%;
-    background-color: #afadad;
+    background-color: #fdfdfd;
     padding: 10px;
     display: flex;
     justify-content: space-between;
@@ -243,48 +265,306 @@ hr{
 
 .box1{
     width:45%;
-    height:500px;
+    height:390px;
     background-color: cornsilk;
+    position:relative;
+    border-radius: 15px;
+    margin-top: 30px;
+    cursor: pointer;
+    box-shadow: 2px 3px 10px gray;
 }
 .box1 img{
     width:100%;
-
+    border-radius: 15px;
+}
+.box_1_text{
+    width:568px;
+    height:100%;
+    position:absolute;
+    display: none;
+    top:0;
+}
+.box1:hover .box_1_text{
+    display: block;
+    background-color: #ffffff67;
+    border-radius: 15px;
+}
+.box_1_text h1{
+    font-size:35px;
+    color: #000000;
+    text-align: center;
+    margin-top: 170px;;
+}
+.box_1_text p{
+    font-size:25px;
+    color: #5d5252;
+    text-align: center;
 }
 
 .box2{
     width:45%;
-    height:500px;
+    height:390px;
     background-color: cornsilk;
+    position:relative;
+    border-radius: 15px;
+    margin-top: 30px;
+    cursor: pointer;
+    box-shadow: 2px 3px 10px gray;
 }
 .box2 img{
     width:100%;
+    height:100%;
+    border-radius: 15px;
+}
+.box_2_text{
+    width:568px;
+    height:100%;
+    position:absolute;
+    display: none;
+    top:0;
+}
+.box2:hover .box_2_text{
+    display: block;
+    background-color: #ffffff67;
+    border-radius: 15px;
+}
+.box_2_text h1{
+    font-size:35px;
+    color: #000000;
+    text-align: center;
+    margin-top: 170px;;
+}
+.box_2_text p{
+    font-size:25px;
+    color: #5d5252;
+    text-align: center;
 }
 
-.box1 
 .box3{
     width:45%;
-    height:500px;
+    height:390px;
     background-color: cornsilk;
+    position:relative;
+    border-radius: 15px;
+    margin-top: 30px;
+    cursor: pointer;
+    box-shadow: 2px 3px 10px gray;
 }
 .box3 img{
     width:100%;
+    height:100%;
+    border-radius: 15px;
+}
+.box_3_text{
+    width:568px;
+    height:100%;
+    position:absolute;
+    display: none;
+    top:0;
+}
+.box3:hover .box_3_text{
+    display: block;
+    background-color: #ffffff67;
+    border-radius: 15px;
+}
+.box_3_text h1{
+    font-size:35px;
+    color: #000000;
+    text-align: center;
+    margin-top: 170px;;
+}
+.box_3_text p{
+    font-size:25px;
+    color: #5d5252;
+    text-align: center;
 }
 .box4{
     width:45%;
-    height:500px;
+    height:390px;
     background-color: cornsilk;
+    position:relative;
+    border-radius: 15px;
+    margin-top: 30px;
+    cursor: pointer;
+    box-shadow: 2px 3px 10px gray;
 }
-
 .box4 img{
     width:100%;
+    height:100%;
+    border-radius: 15px;
+}
+.box_4_text{
+    width:568px;
+    height:100%;
+    position:absolute;
+    display: none;
+    top:0;
+}
+.box4:hover .box_4_text{
+    display: block;
+    background-color: #ffffff67;
+    border-radius: 15px;
+}
+.box_4_text h1{
+    font-size:35px;
+    color: #000000;
+    text-align: center;
+    margin-top: 170px;;
+}
+.box_4_text p{
+    font-size:25px;
+    color: #5d5252;
+    text-align: center;
+}
+
+/* ---------------------------------------------------------Services section-------------------------- */
+
+
+#services{
+    width:100%;
+    height:100vh;
+
+}
+#services h1{
+    font-size: 60px;
+    color:#08D404;
+    text-align: center;
+    margin-top: 30px;
+}
+#services > p{
+    font-size: 30px;
+    color:#000000;
+    margin: 40px 0 0 40px;
+}
+
+.section_area{
+    width:95%;
+    height:100%;
+    display: flex;
+    justify-content: space-around;
+    margin: 100px 40px 0 30px;
+}
+
+.service-1{
+    background-color: #c5b805;
+    height:400px;
+    width:300px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    border-radius: 15px;
+    transition:0.5s;
+    box-shadow: 2px 3px 10px gray;
+}
+ 
+.service-1 i{
+    margin-bottom:60px;
+    font-size: 80px;
+    color: #fff;
+}
+.service-1 h5{
+    font-size: 20px;
+    color: #fff;
+    margin-left:30px;
+}
+.service-1 p{
+    font-size: 15px;
+    color: #fff;
+    margin-left:30px;
 }
 
 
 
+.service-2{
+    background-color: #01a009;
+    height:400px;
+    width:300px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    border-radius: 15px;
+    transition:0.5s;
+    margin-top: 60px;
+    box-shadow: 2px 3px 10px gray;
+}
+ 
+.service-2 i{
+    margin-bottom:60px;
+    font-size: 80px;
+    color: #fff;
+}
+.service-2 h5{
+    font-size: 20px;
+    color: #fff;
+    margin-left:30px;
+}
+.service-2 p{
+    font-size: 15px;
+    color: #fff;
+    margin-left:30px;
+}
 
+.service-3{
+    background-color: #2600ff;
+    height:400px;
+    width:300px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    border-radius: 15px;
+    transition:0.5s;
+    box-shadow: 2px 3px 10px gray;
+}
+ 
+.service-3 i{
+    margin-bottom:60px;
+    font-size: 80px;
+    color: #fff;
+}
+.service-3 h5{
+    font-size: 20px;
+    color: #fff;
+    margin-left:30px;
+}
+.service-3 p{
+    font-size: 15px;
+    color: #fff;
+    margin-left:30px;
+}
 
-
-
+    
+.service-4{
+    background-color: tomato;
+    height:400px;
+    width:300px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    border-radius: 15px;
+    transition:0.5s;
+    margin-top: 60px;
+    box-shadow: 2px 3px 10px gray;
+}
+ 
+.service-4 i{
+    margin-bottom:60px;
+    font-size: 80px;
+    color: #fff;
+}
+.service-4 h5{
+    font-size: 20px;
+    color: #fff;
+    margin-left:15px;
+}
+.service-4 p{
+    font-size: 20px;
+    color: #fff;
+    margin-left:30px;
+}
 
 
 
